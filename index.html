@@ -11,61 +11,66 @@
     </head>
 
     <body>
-        <h1>Garret Hughes</h1>
-        <ul>
+        <header>
+        <h1 id="top" class="title">Garret Hughes</h1>
+        <ul class="nav">
             <li><a href="#top">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+    </header>
 
-    <img src="images/responsive-layout-profile.png" alt="responsive portfolio picture"/>
+    <div class="section-1">    
+    <img class="profile-pic" src="images/responsive-layout-profile.png" alt="responsive portfolio picture"/>
 
     <p class="bio">
         Hi! I am a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and I am excited to put my skills to use!
     </p>
+</div>
+
     <div class="portfolio-container">
     <h2 id="portfolio">Portfolio</h2>
 
-    <div class="project">
-        <img src="images/portfolio-1.png" alt="portfolio picture"/>
+    <div class="project proj-1">
+        <img src="images/portfolio-1.png" alt="portfolio pic"/>
         <h3>Marketing Page</h3>
-        <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+        <p class="portfolio-text">This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
     </div>
 
-    <div class="project">
-        <img src="images/portfolio-2.png" alt="portfolio picture"/>
+    <div class="project proj-2">
+        <img src="images/portfolio-2.png" alt="portfolio pic"/>
         <h3>Search Page</h3>
-        <p>This project searches through a specific database to find information .</p>
+        <p class="portfolio-text">This project searches through a specific database to find information .</p>
     </div>
 
-    <div class="project">
-        <img src="images/portfolio-3.png" alt="portfolio picture"/>
+    <div class="project proj-3">
+        <img src="images/portfolio-3.png" alt="portfolio pic"/>
         <h3>Travel App</h3>
-        <p>This project compares travel times based on different transportation mehtods and tells you the best one.</p>
+        <p  class="portfolio-text">This project compares travel times based on different transportation mehtods and tells you the best one.</p>
     </div>
 
-    <div class="project">
-        <img src="images/portfolio-4.png" alt="portfolio picture"/>
+    <div class="project proj-4">
+        <img src="images/portfolio-4.png" alt="portfolio pic"/>
         <h3>Map of Favorite Spots</h3>
-        <p>This project uses mapping apis to plot points from my favorite spots in my city for a do it yourself walking tour.</p>
+        <p  class="portfolio-text">This project uses mapping apis to plot points from my favorite spots in my city for a do it yourself walking tour.</p>
     </div>
 
-    <div class="project">
-        <img src="images/portfolio-5.png" alt="portfolio picture"/>
+    <div class="project proj-5">
+        <img src="images/portfolio-5.png" alt="portfolio pic"/>
         <h3>Photo Gallary</h3>
-        <p> This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+        <p  class="portfolio-text"> This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
     </div>
 
-    <div class="project">
-        <img src="images/portfolio-6.png" alt="portfolio picture"/>
+    <div class="project proj-6">
+        <img src="images/portfolio-6.png" alt="portfolio pic"/>
         <h3>Calculator</h3>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+        <p  class="portfolio-text">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
     </div>
 </div>
 
 <div class="contact-container" id="contact">
     <h2>Contact</h2>
-    <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you</p>
+    <p class="contact-text">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you</p>
     <p>Phone <a href="#" class="contact-info">+1 (111) 123-5491</a></p>
     <p>Email <a href="#" class="contact-info">student123@gmail.com</a></p>
 </div>
@@ -77,7 +82,12 @@
     <a class="top" href="#top">
         BACK TO TOP
     </a>
-    </footer>
+    <ul class="nav-footer">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </footer>
+
 </body>
 </html>
