@@ -156,7 +156,7 @@ footer{
    }
 }
 
-@media screen and(min-width:1024px) {
+@media screen and (min-width:1024px) {
     body{
         padding-bottom:0;
     }
