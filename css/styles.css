@@ -168,6 +168,12 @@ footer{
         margin:initial;
         align-items:center;
     }
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
     .bio{
         font-size:1.75em;
     }
